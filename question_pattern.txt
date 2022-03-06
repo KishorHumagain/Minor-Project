@@ -1,0 +1,23 @@
+             HIMALAYA COLLEGE OF ENGINEERING    
+                    Chaysal-9,Lalitpur  
+             
+Students are requested to give an answer in their own words
+
+Subject:DBMS
+Full Marks:100
+Pass Marks:40
+
+
+               Group 'A' (marks=2)           
+
+1.What is dbms?
+2.Whai is advantage of database?
+3.What is relational algebra?
+
+               Group 'B' (marks=4)           
+
+1.How can you store data?
+2.Write shorts notes on following.
+3.Explain advance database management system.
+
+                Thank You!!
