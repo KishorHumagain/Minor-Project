@@ -1,3 +1,6 @@
+def scanpdf(request):
+        variable=File.objects.get(id=2)
+        return render(request,'scanpdf.html',{'variable':variable,})
 
 def ocr_single(request):
 
@@ -42,7 +45,7 @@ def ocr_single(request):
                         grp33=j.group(0)
                         if grp3==grp33:
                             qn_first=re.compile('(\d{1,3}\))\s+([a-zA-Z0-9,:;\'\-\\\| ]+\?(\.)?)')
-                            qn_second=re.compile(r'(([a-zA-Z0-9,;:\'\\\|\-\ ]+)\.|\? )+(\s\[\d\+\d)')
+                            qn_second=re.compile(r'(([a-zA-Z0-9,;:\'\\\|\-\ ]+)\.|\? )+(\s+\[\d\+\d)')
                             qn_first_match=qn_first.finditer(texts)
                             qn_second_match=qn_second.finditer(texts)
                             for i in qn_first_match:
